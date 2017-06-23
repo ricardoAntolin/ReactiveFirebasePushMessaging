@@ -1,0 +1,24 @@
+apply plugin: 'kotlin'
+apply plugin: 'kotlin-android-extensions'
+
+buildscript {
+    ext.kotlinVersion = '1.1.2-3'
+    ext.gradleVersion = '2.3.2'
+    ext.googleServicesVersion = '3.0.0'
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:$gradleVersion"
+        classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
+        classpath "org.jetbrains.kotlin:kotlin-android-extensions:$kotlinVersion"
+        classpath "com.google.gms:google-services:$googleServicesVersion"
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+    }
+}
+
