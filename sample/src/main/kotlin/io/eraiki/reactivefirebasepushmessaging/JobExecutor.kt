@@ -1,5 +1,5 @@
 
-package eraiki.io.reactivefirebasepushmessaging
+package io.eraiki.reactivefirebasepushmessaging
 
 import java.util.concurrent.*
 

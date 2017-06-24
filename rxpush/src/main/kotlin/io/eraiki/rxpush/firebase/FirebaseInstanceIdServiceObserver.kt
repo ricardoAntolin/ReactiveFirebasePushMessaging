@@ -1,4 +1,4 @@
-package eraiki.io.rxpush.firebase
+package io.eraiki.rxpush.firebase
 
 
 interface FirebaseInstanceIdServiceObserver {

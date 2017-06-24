@@ -1,19 +1,19 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
 
-    package="eraiki.io.rxpush">
+    package="io.eraiki.rxpush">
 
     <application android:allowBackup="true" android:label="@string/app_name"
         android:supportsRtl="true">
 
         <service
-            android:name=".firebase.FirebaseMessagingServiceImp">
+            android:name="io.eraiki.rxpush.firebase.FirebaseMessagingServiceImp">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
 
         <service
-            android:name=".firebase.FirebaseInstanceIdServiceImp">
+            android:name="io.eraiki.rxpush.firebase.FirebaseInstanceIdServiceImp">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>

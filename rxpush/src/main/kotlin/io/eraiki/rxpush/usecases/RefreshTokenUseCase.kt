@@ -1,4 +1,4 @@
-package eraiki.io.rxpush.usecases
+package io.eraiki.rxpush.usecases
 
 import io.reactivex.Observable
 import io.reactivex.Scheduler
@@ -6,7 +6,7 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 import io.reactivex.observers.DisposableObserver
 import io.reactivex.schedulers.Schedulers
-import eraiki.io.rxpush.firebase.FirebaseInstanceIdServiceObserverImp
+import io.eraiki.rxpush.firebase.FirebaseInstanceIdServiceObserverImp
 import java.util.concurrent.Executor
 
 

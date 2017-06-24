@@ -1,4 +1,4 @@
-package eraiki.io.rxpush;
+package io.eraiki.rxpush;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

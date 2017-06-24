@@ -1,4 +1,4 @@
-package eraiki.io.rxpush;
+package io.eraiki.rxpush;
 
 import org.junit.Test;
 

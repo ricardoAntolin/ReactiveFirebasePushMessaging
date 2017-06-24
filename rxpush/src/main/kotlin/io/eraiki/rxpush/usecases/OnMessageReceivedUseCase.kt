@@ -1,4 +1,4 @@
-package eraiki.io.rxpush.usecases
+package io.eraiki.rxpush.usecases
 
 
 import com.google.firebase.messaging.RemoteMessage
@@ -8,7 +8,7 @@ import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 import io.reactivex.observers.DisposableObserver
 import io.reactivex.schedulers.Schedulers
-import eraiki.io.rxpush.firebase.FirebaseMessagingServiceObserverImp
+import io.eraiki.rxpush.firebase.FirebaseMessagingServiceObserverImp
 import java.util.concurrent.Executor
 
 

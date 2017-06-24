@@ -1,7 +1,7 @@
-package eraiki.io.rxpush.firebase
+package io.eraiki.rxpush.firebase
 
 import com.google.firebase.messaging.RemoteMessage
-import eraiki.io.rxpush.RxBus
+import io.eraiki.rxpush.RxBus
 import io.reactivex.Observable
 
 

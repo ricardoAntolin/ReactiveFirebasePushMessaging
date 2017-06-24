@@ -1,4 +1,4 @@
-package eraiki.io.reactivefirebasepushmessaging;
+package io.eraiki.reactivefirebasepushmessaging;
 
 import org.junit.Test;
 

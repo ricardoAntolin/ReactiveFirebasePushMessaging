@@ -1,4 +1,4 @@
-package eraiki.io.reactivefirebasepushmessaging
+package io.eraiki.reactivefirebasepushmessaging
 
 import android.app.Notification
 import android.app.NotificationManager
@@ -8,8 +8,7 @@ import android.content.Context
 import android.content.Intent
 import android.support.v4.app.NotificationCompat
 import com.google.firebase.messaging.RemoteMessage
-import com.grupoasv.setsconductor.presentation.R
-import com.grupoasv.setsconductor.presentation.ui.activities.MainActivity
+import io.eraiki.reactivefirebasepushmessaging.R
 
 
 class PushNotification {

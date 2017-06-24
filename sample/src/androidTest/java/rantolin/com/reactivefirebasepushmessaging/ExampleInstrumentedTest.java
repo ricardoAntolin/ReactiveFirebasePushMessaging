@@ -1,4 +1,4 @@
-package eraiki.io.reactivefirebasepushmessaging;
+package io.eraiki.reactivefirebasepushmessaging;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

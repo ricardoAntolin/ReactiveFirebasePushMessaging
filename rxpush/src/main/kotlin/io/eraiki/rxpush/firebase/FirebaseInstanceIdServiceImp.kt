@@ -1,4 +1,4 @@
-package eraiki.io.rxpush.firebase
+package io.eraiki.rxpush.firebase
 
 import com.google.firebase.iid.FirebaseInstanceId
 import com.google.firebase.iid.FirebaseInstanceIdService

@@ -1,6 +1,6 @@
-package eraiki.io.rxpush.firebase
+package io.eraiki.rxpush.firebase
 
-import eraiki.io.rxpush.RxBus
+import io.eraiki.rxpush.RxBus
 import io.reactivex.Observable
 
 class FirebaseInstanceIdServiceObserverImp: FirebaseInstanceIdServiceObserver {

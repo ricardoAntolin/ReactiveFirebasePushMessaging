@@ -1,10 +1,10 @@
-package eraiki.io.reactivefirebasepushmessaging
+package io.eraiki.reactivefirebasepushmessaging
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import com.google.firebase.messaging.RemoteMessage
-import eraiki.io.rxpush.usecases.OnMessageReceivedUseCase
-import eraiki.io.rxpush.usecases.RefreshTokenUseCase
+import io.eraiki.rxpush.usecases.OnMessageReceivedUseCase
+import io.eraiki.rxpush.usecases.RefreshTokenUseCase
 import io.reactivex.android.schedulers.AndroidSchedulers
 import io.reactivex.observers.DisposableObserver
 
@@ -34,7 +34,7 @@ class MainActivity : AppCompatActivity() {
 
     inner class NotificationObserver: DisposableObserver<RemoteMessage>() {
         override fun onNext(t: RemoteMessage) {
-            PushNotification.buildAndShowNotification(this@MainActivity,t)
+            PushNotification.buildAndShowNotification(this@MainActivity, t)
         }
 
         override fun onComplete() {
